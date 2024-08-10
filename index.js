@@ -9,7 +9,7 @@ port = process.env.PORT || 4001;
 app.use(cors());
 app.use(express.json())
 
-app.post("/", async (req, res) => {
+app.post("/sendEmail", async (req, res) => {
   const { email } = req.body;
 
   let transporter = nodemailer.createTransport({
