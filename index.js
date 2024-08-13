@@ -44,7 +44,6 @@ app.post("/sendEmail", async (req, res) => {
     <p>If you have any immediate questions, don’t hesitate to contact us at <a href="mailto:success@manuscriptedit.com">success@manuscriptedit.com</a>.</p>
     <p>We look forward to working with you!</p>
     <p>Best regards,</p>
-    <p>Lauren</p>
     <p>Manuscriptedit Editorial (Operation)</p>
   `,
   };
